@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borde Radius</title>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header>
+        <h1>Border Radius</h1>
+    </header>
+
+    <div class="top-left">
+        <input type="text" id="input-top-left" value="0" onkeyup="changeValueTopLeft()">
+    </div>
+
+    <div class="top-right">
+        <input type="text" id="input-top-right" value="0" onkeyup="changeValueTopRight()">
+    </div>
+
+    <div class="bottom-left">
+        <input type="text" id="input-bottom-left" value="0" onkeyup="changeValueBottomLeft()">
+    </div>
+
+    <div class="bottom-right">
+        <input type="text" id="input-bottom-right" value="0" onkeyup="changeValueBottomRight()">
+    </div>
+
+    <div id="content">
+        <div id="screen"></div>
+
+        <button onclick="clean()">Limpar</button>
+    </div>
+
+</body>
+    <script src="script.js"></script>
+</html>

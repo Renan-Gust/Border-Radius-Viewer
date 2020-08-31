@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3d3d3d;
+
+    animation-name: colorcycle;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorcycle{
+    0% {background: #3d3d3d;}
+    50% {background: #7a7a7a;}
+    100% {background: #414040;}
+}
+
+header{
+    width: 100%;
+    height: 6rem;
+}
+
+header h1{
+    text-align: center;
+
+    width: 20%;
+
+    margin: auto;
+    padding-top: 3rem;
+
+    font-size: 42px;
+    font-family: cursive, sans-serif;
+
+    color: #928f8f;
+}
+
+input{
+    height: 1.5rem;
+    width: 1.5rem;
+
+    text-align: center;
+
+    background: #393939;
+    color: white;
+
+    outline: none;
+    border: 1px solid #2f2f2f;
+
+    font: bold 15px Arial;
+}
+
+#content{
+    height: 22.5rem;
+    width: 35.5rem;
+
+    margin: 65px auto;
+    padding-top: 60px;
+
+    background: #e9eaee;
+}
+
+.top-left{
+    width: 1.5rem;
+
+    position: absolute;
+
+    left: 440px;
+    margin-top: 65px;
+
+}
+
+.top-right{
+    width: 1.5rem;
+
+    position: absolute;
+
+    left: 1070px;
+    margin-top: 65px;
+}
+
+.bottom-left{
+    width: 1.5rem;
+
+    position: absolute;
+
+    left: 440px;
+    margin-top: 400px;
+}
+
+.bottom-right{
+    width: 1.5rem;
+
+    position: absolute;
+
+    left: 1070px;
+    margin-top: 400px;
+}
+
+#screen{
+    background: white;
+
+    border: 1px solid #a3a3a3;
+
+    width: 430px;
+    height: 240px;
+
+    margin: 0 auto;
+}
+
+#content button{
+    display: flex;
+    align-items: center;
+
+    margin: 10px auto;
+    padding-left: 8px;
+
+    height: 40px;
+    width: 60px;
+
+    background: #3d3d3d;
+    color: white;
+
+    outline: none;
+    cursor: pointer;
+
+    border: 1px solid #a3a3a3;
+    border-radius: 3px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#content button:hover{
+    background-color: #252424;
+
+    transition: 2s;
+}
+
+
+
